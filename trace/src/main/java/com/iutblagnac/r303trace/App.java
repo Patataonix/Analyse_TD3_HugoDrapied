@@ -18,10 +18,10 @@ public class App {
         return param;
     }
 
-    /*
-    @param int x 
-    @param int y
-    @return x*y
+    /**
+    @param int x premier entier 
+    @param int y second entier
+    @return x*y renvoie le produit des deux
      */
     public static int multiply(int x, int y){
         return x*y;
