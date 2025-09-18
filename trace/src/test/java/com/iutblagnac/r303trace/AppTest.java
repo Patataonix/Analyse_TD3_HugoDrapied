@@ -42,4 +42,7 @@ public class AppTest
     {
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
+    public void testMultiply(){
+        assertEquals(10, App.multiply(2,5))
+    }
 }
