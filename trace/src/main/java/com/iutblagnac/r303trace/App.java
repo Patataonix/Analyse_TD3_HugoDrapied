@@ -18,6 +18,12 @@ public class App {
         return param;
     }
     
+    
+    /**
+    @param int x premier entier
+    @param int y second entier
+    @return x+y addition des deux
+     */
     public static int addition(int param1, int param2){
         return param1+param2;
     }
