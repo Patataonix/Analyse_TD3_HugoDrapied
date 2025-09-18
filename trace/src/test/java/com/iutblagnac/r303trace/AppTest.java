@@ -43,8 +43,12 @@ public class AppTest
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
 
-    public void testAddition()
-    {
+
+    public void testAddition(){
         assertEquals(5, App.addition(2, 3));
+     }
+
+    public void testMultiply(){
+        assertEquals(10, App.multiply(2,5))
     }
 }

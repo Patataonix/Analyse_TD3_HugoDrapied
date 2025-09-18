@@ -28,4 +28,12 @@ public class App {
         return param1+param2;
     }
 
+    /**
+    @param int x premier entier 
+    @param int y second entier
+    @return x*y renvoie le produit des deux
+     */
+    public static int multiply(int x, int y){
+        return x*y;
+    }
 }
